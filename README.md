@@ -9,11 +9,14 @@ pip install -r requirements.txt
 ```bash
 D:/Anaconda_envs/envs/torch/python.exe D:/repos/concrete-crack/run_train.py
 ```
+### 统一输入图像为1280*1280
+```bash
+python resize_images.py --input_dir <path> --output_dir <path>
+```
 ### 模型预测
 ```bash
 python run_predict.py --model unet --checkpoint <path> --input <path>
 ```
-
 ## 论文参考
 1. Liu, Z., Cao, Y., Wang, Y., & Wang, W. (2019). Computer vision-based concrete crack detection using U-net fully convolutional networks. Automation in Construction, 104, 129-139. https://doi.org/10.1016/j.autcon.2019.04.005
 2. Liu, Y., Yao, J., Lu, X., Xie, R., & Li, L. (2019). DeepCrack: A deep hierarchical feature learning architecture for crack segmentation. Neurocomputing, 338, 139-153. https://doi.org/10.1016/j.neucom.2019.01.036
