@@ -22,7 +22,7 @@ python run_predict.py --model unet --checkpoint <path> --input <path>
 5. FCN8s: Long, J., Shelhamer, E., & Darrell, T. (2015). Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 3431-3440).
 
 ## 数据来源
-https：//github.com/yhlleo/DeepCrack
+https://github.com/yhlleo/DeepCrack
 
 ### 数据库信息
 数据库总共537张RGB彩色图像
