@@ -7,7 +7,7 @@ pip install -r requirements.txt
 ## 快速开始
 ### 训练模型
 ```bash
-D:/Anaconda_envs/envs/torch/python.exe D:/repos/concrete-crack/run_train.py
+python run_train.py
 ```
 ### 统一输入图像为1280*1280
 ```bash
